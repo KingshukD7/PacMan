@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c10c743643b254a55bdc9dc7e85a14c8
+guid: 0ea6f1e93e7a84aee85f41dab03bf52f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -155,13 +155,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pallet_0
+      name: Pallet 1_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 7
         y: 23
-        width: 3
-        height: 3
+        width: 2
+        height: 2
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,18 +169,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c1c357f1445145a78746e01c4ec56d9
-      internalID: 627871590
+      spriteID: e18f6df63b74b4e8ba0af91827a8ed1f
+      internalID: -213587040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pallet_1
+      name: Pallet 1_1
       rect:
         serializedVersion: 2
         x: 24
-        y: 6
+        y: 5
         width: 7
         height: 5
       alignment: 0
@@ -190,17 +190,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba4ee52bd6b6431dac0a9359e26a836
-      internalID: -594368556
+      spriteID: 288330a4dafdf43c792db7c7d6e93782
+      internalID: -867126207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pallet_2
+      name: Pallet 1_2
       rect:
         serializedVersion: 2
-        x: 22
+        x: 23
         y: 23
         width: 3
         height: 3
@@ -211,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98acf44454b5a4d10aadfbc8ef6da69d
-      internalID: -1185431186
+      spriteID: 85aa8ffdebfa9416fb0b6d0fd3d14ffe
+      internalID: -2003887296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pallet_3
+      name: Pallet 1_3
       rect:
         serializedVersion: 2
         x: 6
@@ -232,18 +232,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 205b9e64161c645bd8cb1dac9073a6c1
-      internalID: 1516401539
+      spriteID: 0fb10490a11074ec3b29fd524935dfb0
+      internalID: 1013601865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pallet_4
+      name: Pallet 1_4
       rect:
         serializedVersion: 2
         x: 16
-        y: 6
+        y: 5
         width: 7
         height: 5
       alignment: 0
@@ -253,29 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60c0e2ec449e1437385eb88126d673e1
-      internalID: -2146051345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pallet_5
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 16
-        width: 2
-        height: 2
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ec8280cb604648f19af1c7c9849e1a5
-      internalID: -1911148301
+      spriteID: 25db594a8d92847808ae2cb067bf30e7
+      internalID: 875381812
       vertices: []
       indices: 
       edges: []
@@ -283,7 +262,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: d880df43df43d47aaa6d90816fed3fa9
     internalID: 0
     vertices: []
     indices: 
@@ -291,12 +270,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Pallet_0: 627871590
-      Pallet_1: -594368556
-      Pallet_2: -1185431186
-      Pallet_3: 1516401539
-      Pallet_4: -2146051345
-      Pallet_5: -1911148301
+      Pallet 1_0: -213587040
+      Pallet 1_1: -867126207
+      Pallet 1_2: -2003887296
+      Pallet 1_3: 1013601865
+      Pallet 1_4: 875381812
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
