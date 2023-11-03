@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: YellowGhostOverride
+  m_Controller: {fileID: 9100000, guid: 7567e61bc5148449fb6f36796d375f2a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ca947e0561dd04e459595d72a4968240, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 59777eb8398544d0b9a3b0530f51bb3a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7f1585d1b71a14ef080dffbd4aa2b1fb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 256210e5e98f942ebab0b9c573cac5bf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: abcbaeef84a284b6c95ddfc2eac64e4e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 14492e6f54aa947caa751533caabe9ad, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 290143b2a39944554bd699c2421079a5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 969d5a9517f8046a693f01bcf3ad1eeb, type: 2}
