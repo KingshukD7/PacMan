@@ -28,7 +28,7 @@ public class PacStudentController : MonoBehaviour
     }
     private void HandleInput()
     {
-        // Store the last input direction.
+        
         Vector3 inputDirection = Vector3.zero;
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
@@ -52,10 +52,16 @@ public class PacStudentController : MonoBehaviour
         if (inputDirection != Vector3.zero)
         {
             lastInput = inputDirection;
+            TurnPacStudent(lastInput);
         }
 
         
         TryMove(lastInput);
+    }
+    private void TurnPacStudent(Vector3 direction)
+    {
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
     private void TryMove(Vector3 direction)
